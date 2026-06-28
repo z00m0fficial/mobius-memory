@@ -1,0 +1,29 @@
+mobius:
+  repository: mobius-memory
+  department: Memory
+  domain: Intelligence
+  service: Organizational Memory Service
+  canon_version: pending-mobius-canon
+  architecture_version: 1.0.0
+  sync_status: synchronized
+  consumes:
+    - voice-intelligence-output
+    - routing-decisions
+    - atlas-recommendations
+    - repository-updates
+    - platform-change-proposals
+    - metric-snapshots
+  produces:
+    - memory-events
+    - organizational-timeline
+    - knowledge-graph-records
+    - memory-search-results
+  depends_on:
+    - atlas-core
+    - mobius-router
+    - mobius-voice
+    - mobius-pulse
+  governance:
+    approval_workflow: true
+    verification_before_reuse: true
+    organizations_own_their_knowledge: true
