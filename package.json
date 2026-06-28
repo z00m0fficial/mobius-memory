@@ -1,0 +1,17 @@
+{
+  "name": "@mobius/memory",
+  "version": "1.0.0",
+  "description": "Organizational Memory Service for Mobius.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"tests pending\"",
+    "validate": "npm run build && npm run test"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
