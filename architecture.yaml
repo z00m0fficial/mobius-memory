@@ -1,0 +1,22 @@
+repository: mobius-memory
+version: 1.0.0
+status: foundation
+classification: internal-platform
+primary_layer: organizational-memory
+department: Memory
+mission: Preserve verified organizational knowledge so Mobius can learn faster than organizations forget.
+capabilities:
+  - memory-events
+  - decision-history
+  - organizational-timeline
+  - knowledge-graph
+  - semantic-search-readiness
+  - voice-intelligence-ingestion
+  - repository-history-ingestion
+  - pcp-records
+  - atlas-recommendation-history
+quality_gates:
+  verified_before_reuse: true
+  confidence_required: true
+  source_required: true
+  approved_by_required_for_governance_events: true
